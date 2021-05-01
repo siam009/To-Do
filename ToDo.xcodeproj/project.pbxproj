@@ -13,6 +13,7 @@
 		2D8FB1EE263B074100996126 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D8FB1ED263B074100996126 /* Preview Assets.xcassets */; };
 		2D8FB1F0263B074100996126 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8FB1EF263B074100996126 /* Persistence.swift */; };
 		2D8FB1F3263B074100996126 /* To_Do.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D8FB1F1263B074100996126 /* To_Do.xcdatamodeld */; };
+		2DB35DF7263DC239005B4A0B /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB35DF6263DC239005B4A0B /* TaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2D8FB1EF263B074100996126 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		2D8FB1F2263B074100996126 /* To_Do.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = To_Do.xcdatamodel; sourceTree = "<group>"; };
 		2D8FB1F4263B074100996126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DB35DF6263DC239005B4A0B /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,10 @@
 			children = (
 				2D8FB1E6263B074000996126 /* To_DoApp.swift */,
 				2D8FB1E8263B074000996126 /* ContentView.swift */,
-				2D8FB1EA263B074100996126 /* Assets.xcassets */,
+				2DB35DF6263DC239005B4A0B /* TaskView.swift */,
 				2D8FB1EF263B074100996126 /* Persistence.swift */,
-				2D8FB1F4263B074100996126 /* Info.plist */,
-				2D8FB1F1263B074100996126 /* To_Do.xcdatamodeld */,
 				2D8FB1EC263B074100996126 /* Preview Content */,
+				2D8FB253263B413A00996126 /* Supporting Files */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -73,6 +74,16 @@
 				2D8FB1ED263B074100996126 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D8FB253263B413A00996126 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D8FB1F4263B074100996126 /* Info.plist */,
+				2D8FB1F1263B074100996126 /* To_Do.xcdatamodeld */,
+				2D8FB1EA263B074100996126 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 				2D8FB1F0263B074100996126 /* Persistence.swift in Sources */,
 				2D8FB1E9263B074000996126 /* ContentView.swift in Sources */,
 				2D8FB1E7263B074000996126 /* To_DoApp.swift in Sources */,
+				2DB35DF7263DC239005B4A0B /* TaskView.swift in Sources */,
 				2D8FB1F3263B074100996126 /* To_Do.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +292,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ToDo/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ToDo/Info.plist;
+				INFOPLIST_FILE = "ToDo/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,7 +316,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ToDo/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ToDo/Info.plist;
+				INFOPLIST_FILE = "ToDo/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
